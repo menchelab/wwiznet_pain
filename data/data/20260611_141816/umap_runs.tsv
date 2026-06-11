@@ -1,4 +1,5 @@
 # 40 diverse UMAP variants tuned for ~20k nodes, 350k edges, high-degree hubs.
+
 algo	run_id	svd_dim	n_neighbors	min_dist	spread	metric	n_epochs	repulsion_strength	negative_sample_rate	random_state	svd_seconds	layout_seconds	mn_ratio	fp_ratio	n_iters	n_inliers	n_outliers	n_random	knn	t	decay	gamma	seed_candidates	best_seed	best_trustworthiness	n_unique_input	max_iter	gravity	scaling_ratio	iterations	k
 forceatlas2	1									42		61.109															2000.0	0.1	2.0		
 forceatlas2	2									42		60.768															2000.0	0.5	2.0		
