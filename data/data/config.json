@@ -4,12 +4,12 @@
   "dataset": "data",
   "presets": {
     "test": {
-      "nodeSizeScaling": 1.7435,
+      "nodeSizeScaling": 0.637,
       "nodeMinSize": 0.005,
-      "edgeWidthScaling": 9.1,
-      "edgeMinWidth": 2,
+      "edgeWidthScaling": 0.01,
+      "edgeMinWidth": 0.1,
       "nodeSizeAttribute": "degree_n",
-      "nodeColorAttribute": "omim_n_sig_terms_n",
+      "nodeColorAttribute": "hidef_primary_cluster_c",
       "nodeMeshAttribute": "any_sig_enrichment_c",
       "edgeWidthAttribute": "source_count_n",
       "edgeColorAttribute": "source_count_n",
@@ -66,7 +66,23 @@
     "popout-subset-list": "{\"left\":24,\"top\":286.5,\"width\":382,\"height\":222}",
     "lastUsedPreset_data": "test"
   },
-  "openWindows": [],
+  "openWindows": [
+    {
+      "type": "subset-list",
+      "storageKey": "popout-subset-list",
+      "title": "subset (0)",
+      "config": {
+        "namesText": "",
+        "libraryVisible": true,
+        "bounds": {
+          "left": 24,
+          "top": 286.5,
+          "width": 384,
+          "height": 224
+        }
+      }
+    }
+  ],
   "nodeLayout": "adju20",
   "edgeHighlightSettings": {
     "subsetEdgesOnly": true,
