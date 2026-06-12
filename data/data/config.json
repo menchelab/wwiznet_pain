@@ -6,8 +6,8 @@
     "test": {
       "nodeSizeScaling": 1.7435,
       "nodeMinSize": 0.005,
-      "edgeWidthScaling": 9.1,
-      "edgeMinWidth": 2,
+      "edgeWidthScaling": 5.1,
+      "edgeMinWidth": 1,
       "nodeSizeAttribute": "degree_n",
       "nodeColorAttribute": "hidef_primary_cluster_c",
       "nodeMeshAttribute": "any_sig_enrichment_c",
@@ -59,7 +59,16 @@
   },
   "lastUsedPreset": "test",
   "subsetBuilderLibrary": [],
-  "subsetListLibrary": [],
+  "subsetListLibrary": [
+    {
+      "name": "spectralhubs",
+      "namesText": "CTNNB1 EGFR HTT APP PRKN TP53 HSPA8"
+    },
+    {
+      "name": "positivefiedler",
+      "namesText": "IL6R TIMP3 CBLN4 SORL1 GCNT3 IL6 GDNF GFRA2 NRTN"
+    }
+  ],
 
   "openWindows": [
     {
@@ -67,13 +76,13 @@
       "storageKey": "popout-subset-list",
       "title": "subset (0)",
       "config": {
-        "namesText": "",
+        "namesText": "IL6R TIMP3 CBLN4 SORL1 GCNT3 IL6 GDNF GFRA2 NRTN",
         "libraryVisible": true,
         "bounds": {
           "left": 5,
           "top": 56.5,
-          "width": 386,
-          "height": 226
+          "width": 388,
+          "height": 228
         }
       }
     }
